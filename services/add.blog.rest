@@ -1,0 +1,9 @@
+POST http://localhost:3002/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Hello, Elise",
+  "author": "Cult",
+  "url": "everywhere.com",
+  "likes": 0
+}
