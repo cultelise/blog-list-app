@@ -1,0 +1,10 @@
+POST http://localhost:3002/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVsYSIsImlkIjoiNjM4YmFlYTExYTc4MzFhM2M5Yzg4ZmVkIiwiaWF0IjoxNjcwMDk4NjE0fQ.4RS-hvbb-5YEJr1cieEqJCBjvpOuwykaAH9ALWLVpsQ
+
+{
+  "title": "Hello, Elise",
+"author": "Cult",
+"url": "here.com",
+"likes": 12
+}

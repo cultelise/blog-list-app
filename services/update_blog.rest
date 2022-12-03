@@ -1,0 +1,9 @@
+PUT http://localhost:3002/api/blogs/6387d29c45ae1656e8ad1750
+Content-Type: application/json
+
+{
+  "title": "Hello, Elise",
+  "author": "Cult",
+  "url": "here.com",
+  "likes": 12
+}
